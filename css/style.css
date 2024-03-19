@@ -1,0 +1,279 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.navbar-ul li a {
+  color: black;
+}
+
+.container {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 16px;
+  background-color: #f2f2f2;
+
+}
+
+.container-Insidecontent {
+  max-width: 1640px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 16px;
+  background-color: #f2f2f2;
+
+  
+}
+
+header {
+  background-color: #f2f2f2;
+  color: black;
+  padding: 20px 0;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  max-width: 48px;
+  height: auto;
+}
+
+.navbar-ul {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-ul li {
+  margin: 0 10px;
+}
+
+.sell-button button {
+  background-color: #29B24E;
+  color: white;
+  padding: 13px 26px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.flex-container {
+  display: flex;
+  gap: 20px;
+}
+
+.rectangle-402 {
+  max-width: 395px;
+  height: auto;
+  border-radius: 24px;
+  border: 1px solid #ccc;
+  background-color: #F8F8F8;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-container img {
+  max-width: 1225px;
+  width: 100%;
+  border-radius: 25px;
+  overflow: hidden;
+  display: block;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 23%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.overlay-text input[type="text"] {
+  max-width: 324px;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  border-radius: 8px;
+  height: 48px;
+  background-color: #ffffff;
+}
+
+.overlay-text.relative {
+  position: relative;
+}
+
+.frame-icon {
+  position: absolute;
+  top: 85%;
+  right: 10px;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  background-image: url('https://cdn.iconscout.com/icon/free/png-256/free-search-1399-475061.png');
+  background-size: cover;
+  cursor: pointer;
+}
+
+.overlay-text input[type="text"] {
+  margin-top: 50px;
+}
+
+.overlay-text p {
+  margin-top: 10px;
+}
+
+.location {
+  margin: 20px;
+}
+
+.location select {
+  width: 331px;
+  height: 48px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.property {
+  margin: 20px;
+}
+
+.price-range {
+  margin: 20px 20px 20px 2px;
+}
+
+.location p,
+.property p,
+.price-range p {
+  margin-bottom: 10px;
+}
+
+/* Trending ads*/
+
+.trending-ads {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+  align-items: stretch;
+}
+
+.trending-ads2 {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+  align-items: stretch;
+}
+
+.ads-h2 {
+  margin-top: 32px;
+}
+
+.popular-articles h2 {
+}
+
+.article {
+  position: relative;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  padding: 20px;
+  max-width: 395px;
+  width: 100%;
+  align-items: stretch;
+}
+
+.article-content {
+  margin-top: 20px;
+}
+
+.article-image {
+  max-width: 363px;
+  width: 100%;
+  border-radius: 25px;
+}
+
+.vip-text {
+  position: absolute;
+  top: 40px;
+  left: 35px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px 18px;
+  border-radius: 40px;
+  background-color: #29B24E;
+}
+
+.fav-icon {
+  position: absolute;
+  bottom: 152px;
+  right: 31px;
+  background-color: white;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+}
+
+.material-symbols-outlined {
+  color: rgb(4, 194, 4);
+  font-size: 24px;
+}
+
+.fav-icon img {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  filter: hue-rotate(120deg);
+}
+
+.article h3 {
+  margin-bottom: 8px;
+}
+
+.article p {
+}
+
+.price-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.price {
+  color: #29B24E;
+}
+
+.additional-info {
+  border-top: 2px solid #CFEAD6;
+  display: flex;
+  margin-top: 20px;
+  margin-left: -20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.additional-info p {
+  margin-top: 20px;
+  padding: 0px 15px;
