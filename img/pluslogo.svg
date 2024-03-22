@@ -1,0 +1,11 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 56" width="56" height="56">
+	<title>pluslogo</title>
+	<defs>
+		<image  width="56" height="56" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAMAAACfWMssAAAAAXNSR0IB2cksfwAAAEtQTFRFAAAAIK9AKrNOKbJNKbFOKbJOKrJOKbJNKK9IKrJPKbNOKbJOKLNOKrJNKrFOKLJPKbJOKLFOMK9QKK9QKLJPJ7JNKLFOKLJNIK9QVsWWdwAAABl0Uk5TABB/v9//73Agn2/vf5+Av9+AECCfcKC/ECnDvdYAAACtSURBVHic7dfRDoIwDAXQwrjbdAriRPz/L3UTRjAxYW187H0/abunO6IlTWs6HMYa52kfb45RyWlHz7beAcEVd+GwnHadx3XAZ6Zn7bkk5DuvfAeYNFDigIacDPY0yKAhwdPk3EjmAIUKFSpUqFDhP2FF9fuVIC8Poww6ustgJNmuj9TloqDp2Jjr48SHa9Vlv09fKvLE2tZu1Trd+ax3c/z6B0Q3VIzt5vG1gjcLKjzzRhqMugAAAABJRU5ErkJggg=="/>
+		<image  width="24" height="24" id="img2" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYAgMAAACdGdVrAAAAAXNSR0IB2cksfwAAAAlQTFRFAAAA////////c3ilYwAAAAN0Uk5TAN//0dTygwAAAB5JREFUeJxjYGBgdGAAAaYGyqmsVUCwEkZRx0yIAwHtDRIhNMZA5gAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+	<use id="Background" href="#img2" x="16" y="13"/>
+</svg>
